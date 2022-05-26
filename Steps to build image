@@ -1,0 +1,5 @@
+1. create-react-app react-app
+2. Touch Dockerfile
+3. Podman build -t image-name .
+4. Podman run -name container-name -p 3000:3000 image-name
+5. Podman push localhost/image-name quay.io/user-name/repo-name
