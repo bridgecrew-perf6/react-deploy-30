@@ -1,0 +1,1 @@
+oc image-import <image-name> --from <registry-name> --confirm
